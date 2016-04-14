@@ -12,17 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/**********************************
- * MM - 12.01.2015
- * This is a 3rd party library which
- * requires evaluation and appoval
- ***********************************/
-/* Othon - this library is for debug mode only
- *
- * It draws the touch points when performing touch gestures,
- * with this we can screencast via webex or create videos to show how the App navigation works
- *
- */
+
 
 #import "QTouchposeApplication.h"
 #import <QuartzCore/QuartzCore.h>

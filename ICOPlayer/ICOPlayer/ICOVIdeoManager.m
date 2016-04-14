@@ -15,10 +15,8 @@
 #define kICOFlagKey @"ICOPlayerFlags"
 
 
-//TODO: define the web page link containing public m3u8 links
-#define kICOLINKSUrl  @""
-
-
+//TODO: put a link of page containing public m3u8 links
+#define kICOLINKSUrl   @""
 
 @implementation ICOVideoManager
 
@@ -316,6 +314,8 @@
     {
         
         NSLog(@"Links in DB ready");
+        
+    
        
     
     }

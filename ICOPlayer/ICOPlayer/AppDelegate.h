@@ -6,7 +6,7 @@
 //  Copyright © 2016 Othon Cruz. All rights reserved.
 //
 
-#define USETOUCHPOSE 1
+//#define USETOUCHPOSE 1
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
