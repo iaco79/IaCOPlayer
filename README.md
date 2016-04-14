@@ -8,10 +8,10 @@ IpTv player demo, based on ffmpeg and the ijkmedia framework.
   - Search (scrapping m3u8 links from an URL web page).
   - Interactive animated transitions.
   
-### Screen shots:
+### Screenshots:
 
 ##### Favorites
-![enter image description here](https://raw.githubusercontent.com/iaco79/IaCOPlayer/master/demogif/part1.gif)
+![enter image description here](https://raw.githubusercontent.com/iaco79/IaCOPlayer/master/demogif/part4.gif)
 
 ##### Search
 ![enter image description here](https://raw.githubusercontent.com/iaco79/IaCOPlayer/master/demogif/part2.gif)
@@ -19,8 +19,6 @@ IpTv player demo, based on ffmpeg and the ijkmedia framework.
 ##### Tag /  thumbnail 
 ![enter image description here](https://raw.githubusercontent.com/iaco79/IaCOPlayer/master/demogif/part3.gif)
 
-##### Arrange
-![enter image description here](https://raw.githubusercontent.com/iaco79/IaCOPlayer/master/demogif/part4.gif)
 
 ### How to build.
 
