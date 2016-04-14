@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="VideoLink" representedClassName="VideoLink" syncable="YES">
+        <attribute name="videoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoFavorite" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="videoIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoOrder" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoUrl" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="VideoLink" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>

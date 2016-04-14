@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71144791CB9FEA1007B0BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A71144781CB9FEA1007B0BB7 /* main.m */; };
+		A711447C1CB9FEA1007B0BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A711447B1CB9FEA1007B0BB7 /* AppDelegate.m */; };
+		A711447F1CB9FEA1007B0BB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A711447E1CB9FEA1007B0BB7 /* ViewController.m */; };
+		A71144821CB9FEA1007B0BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71144801CB9FEA1007B0BB7 /* Main.storyboard */; };
+		A71144851CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A71144831CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodeld */; };
+		A71144871CB9FEA1007B0BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71144861CB9FEA1007B0BB7 /* Assets.xcassets */; };
+		A711448A1CB9FEA1007B0BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71144881CB9FEA1007B0BB7 /* LaunchScreen.storyboard */; };
+		A71144941CB9FF74007B0BB7 /* ICOContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71144931CB9FF74007B0BB7 /* ICOContainerViewController.m */; };
+		A71144971CBA019A007B0BB7 /* ICOBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71144961CBA019A007B0BB7 /* ICOBaseViewController.m */; };
+		A71144991CBA0E9A007B0BB7 /* ICOPlayerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71144981CBA0E9A007B0BB7 /* ICOPlayerStoryboard.storyboard */; };
+		A711449C1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A711449B1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.m */; };
+		A71144A01CBB20A6007B0BB7 /* ICOMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A711449D1CBB20A6007B0BB7 /* ICOMenuViewController.m */; };
+		A71144A11CBB20A6007B0BB7 /* ICOMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A711449F1CBB20A6007B0BB7 /* ICOMenuViewController.xib */; };
+		A71144A51CBB2235007B0BB7 /* ICOPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A71144A31CBB2235007B0BB7 /* ICOPlayerViewController.m */; };
+		A71144A61CBB2235007B0BB7 /* ICOPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71144A41CBB2235007B0BB7 /* ICOPlayerViewController.xib */; };
+		A71144A81CBB3B69007B0BB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71144A71CBB3B69007B0BB7 /* UIKit.framework */; };
+		A71144AA1CBB3B6F007B0BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71144A91CBB3B6F007B0BB7 /* Foundation.framework */; };
+		A71144AC1CBB3B90007B0BB7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71144AB1CBB3B90007B0BB7 /* CoreData.framework */; };
+		A71144AE1CBB3BA1007B0BB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71144AD1CBB3BA1007B0BB7 /* QuartzCore.framework */; };
+		A71144B21CBB5678007B0BB7 /* ICPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A71144B11CBB5678007B0BB7 /* ICPlayerControl.m */; };
+		A71144B41CBB5999007B0BB7 /* ICOPlayerControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71144B31CBB5999007B0BB7 /* ICOPlayerControl.xib */; };
+		A71144B71CBB5B05007B0BB7 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71144B61CBB5B05007B0BB7 /* IJKMediaFramework.framework */; };
+		A7B690E81CBB784200938D88 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690E41CBB784200938D88 /* AudioToolbox.framework */; };
+		A7B690E91CBB784200938D88 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690E51CBB784200938D88 /* AVFoundation.framework */; };
+		A7B690EA1CBB784200938D88 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690E61CBB784200938D88 /* CoreMedia.framework */; };
+		A7B690EB1CBB784200938D88 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690E71CBB784200938D88 /* CoreVideo.framework */; };
+		A7B690F01CBB785500938D88 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690EC1CBB785500938D88 /* MediaPlayer.framework */; };
+		A7B690F11CBB785500938D88 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690ED1CBB785500938D88 /* MobileCoreServices.framework */; };
+		A7B690F21CBB785500938D88 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690EE1CBB785500938D88 /* OpenGLES.framework */; };
+		A7B690F31CBB785500938D88 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690EF1CBB785500938D88 /* VideoToolbox.framework */; };
+		A7B690F51CBB789700938D88 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690F41CBB789700938D88 /* libbz2.tbd */; };
+		A7B690F71CBB789D00938D88 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B690F61CBB789D00938D88 /* libz.tbd */; };
+		A7D492471CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D492461CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.m */; };
+		A7D4924A1CBFF6F100AD35B4 /* QTouchposeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D492491CBFF6F100AD35B4 /* QTouchposeApplication.m */; };
+		A7E6E1391CBC247200422E91 /* ICODataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E1371CBC247200422E91 /* ICODataModel.xcdatamodeld */; };
+		A7E6E13E1CBC258900422E91 /* ICOVIdeoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E13D1CBC258900422E91 /* ICOVIdeoManager.m */; };
+		A7E6E1411CBC264B00422E91 /* ICODBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E1401CBC264B00422E91 /* ICODBManager.m */; };
+		A7E6E1461CBC286000422E91 /* _VideoLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E1431CBC286000422E91 /* _VideoLink.m */; };
+		A7E6E1471CBC286000422E91 /* VideoLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E1451CBC286000422E91 /* VideoLink.m */; };
+		A7E6E14A1CBC289600422E91 /* ICOVideoLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E1491CBC289600422E91 /* ICOVideoLink.m */; };
+		A7E6E1511CBC3BBE00422E91 /* ICOFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E14B1CBC3BBE00422E91 /* ICOFavoritesViewController.m */; };
+		A7E6E1521CBC3BBE00422E91 /* ICOFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E14C1CBC3BBE00422E91 /* ICOFavoriteCell.m */; };
+		A7E6E1531CBC3BBE00422E91 /* ICOFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E14E1CBC3BBE00422E91 /* ICOFavoritesViewController.xib */; };
+		A7E6E1541CBC3BBE00422E91 /* ICOFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E6E14F1CBC3BBE00422E91 /* ICOFavoriteCell.xib */; };
+		A7E6E15B1CBD61BC00422E91 /* ICOURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E15A1CBD61BC00422E91 /* ICOURLRequest.m */; };
+		A7E6E15D1CBD73B700422E91 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E6E15C1CBD73B700422E91 /* libxml2.tbd */; };
+		A7E6E16D1CBD76FE00422E91 /* ICOLinkScrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E6E16C1CBD76FE00422E91 /* ICOLinkScrapper.m */; };
+		A7F50EE91CBDDA8800BD6DF5 /* ICOSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F50EE71CBDDA8800BD6DF5 /* ICOSearchViewController.m */; };
+		A7F50EEA1CBDDA8800BD6DF5 /* ICOSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F50EE81CBDDA8800BD6DF5 /* ICOSearchViewController.xib */; };
+		A7F50EF11CBDDEBC00BD6DF5 /* ICOSearchItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F50EEF1CBDDEBC00BD6DF5 /* ICOSearchItemCell.m */; };
+		A7F50EF21CBDDEBC00BD6DF5 /* ICOSearchItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F50EF01CBDDEBC00BD6DF5 /* ICOSearchItemCell.xib */; };
+		A7F650901CBEEB8C00245BA5 /* ICOFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F6508F1CBEEB8C00245BA5 /* ICOFileHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A71144741CB9FEA1007B0BB7 /* ICOPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICOPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71144781CB9FEA1007B0BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A711447A1CB9FEA1007B0BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A711447B1CB9FEA1007B0BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A711447D1CB9FEA1007B0BB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A711447E1CB9FEA1007B0BB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A71144811CB9FEA1007B0BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A71144841CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ICOPlayer.xcdatamodel; sourceTree = "<group>"; };
+		A71144861CB9FEA1007B0BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A71144891CB9FEA1007B0BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A711448B1CB9FEA1007B0BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71144921CB9FF74007B0BB7 /* ICOContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOContainerViewController.h; sourceTree = "<group>"; };
+		A71144931CB9FF74007B0BB7 /* ICOContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOContainerViewController.m; sourceTree = "<group>"; };
+		A71144951CBA019A007B0BB7 /* ICOBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOBaseViewController.h; sourceTree = "<group>"; };
+		A71144961CBA019A007B0BB7 /* ICOBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOBaseViewController.m; sourceTree = "<group>"; };
+		A71144981CBA0E9A007B0BB7 /* ICOPlayerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ICOPlayerStoryboard.storyboard; sourceTree = "<group>"; };
+		A711449A1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOInteractiveTransitioning.h; sourceTree = "<group>"; };
+		A711449B1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOInteractiveTransitioning.m; sourceTree = "<group>"; };
+		A711449D1CBB20A6007B0BB7 /* ICOMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOMenuViewController.m; sourceTree = "<group>"; };
+		A711449E1CBB20A6007B0BB7 /* ICOMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOMenuViewController.h; sourceTree = "<group>"; };
+		A711449F1CBB20A6007B0BB7 /* ICOMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOMenuViewController.xib; sourceTree = "<group>"; };
+		A71144A21CBB2235007B0BB7 /* ICOPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOPlayerViewController.h; sourceTree = "<group>"; };
+		A71144A31CBB2235007B0BB7 /* ICOPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOPlayerViewController.m; sourceTree = "<group>"; };
+		A71144A41CBB2235007B0BB7 /* ICOPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOPlayerViewController.xib; sourceTree = "<group>"; };
+		A71144A71CBB3B69007B0BB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A71144A91CBB3B6F007B0BB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A71144AB1CBB3B90007B0BB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A71144AD1CBB3BA1007B0BB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A71144B01CBB5678007B0BB7 /* ICPlayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPlayerControl.h; sourceTree = "<group>"; };
+		A71144B11CBB5678007B0BB7 /* ICPlayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICPlayerControl.m; sourceTree = "<group>"; };
+		A71144B31CBB5999007B0BB7 /* ICOPlayerControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOPlayerControl.xib; sourceTree = "<group>"; };
+		A71144B61CBB5B05007B0BB7 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "../IJKMediaPlayer/build/Debug-iphoneos/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+		A7B690E41CBB784200938D88 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A7B690E51CBB784200938D88 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A7B690E61CBB784200938D88 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A7B690E71CBB784200938D88 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A7B690EC1CBB785500938D88 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A7B690ED1CBB785500938D88 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A7B690EE1CBB785500938D88 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A7B690EF1CBB785500938D88 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A7B690F41CBB789700938D88 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A7B690F61CBB789D00938D88 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A7D492451CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXReorderableCollectionViewFlowLayout.h; path = Extern/LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		A7D492461CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXReorderableCollectionViewFlowLayout.m; path = Extern/LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		A7D492481CBFF6F100AD35B4 /* QTouchposeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QTouchposeApplication.h; path = Extern/QTouchposeApplication.h; sourceTree = "<group>"; };
+		A7D492491CBFF6F100AD35B4 /* QTouchposeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QTouchposeApplication.m; path = Extern/QTouchposeApplication.m; sourceTree = "<group>"; };
+		A7E6E1381CBC247200422E91 /* ICODataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ICODataModel.xcdatamodel; sourceTree = "<group>"; };
+		A7E6E13C1CBC258900422E91 /* ICOVIdeoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOVIdeoManager.h; sourceTree = "<group>"; };
+		A7E6E13D1CBC258900422E91 /* ICOVIdeoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOVIdeoManager.m; sourceTree = "<group>"; };
+		A7E6E13F1CBC264B00422E91 /* ICODBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICODBManager.h; sourceTree = "<group>"; };
+		A7E6E1401CBC264B00422E91 /* ICODBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICODBManager.m; sourceTree = "<group>"; };
+		A7E6E1421CBC286000422E91 /* _VideoLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _VideoLink.h; path = DataModel/_VideoLink.h; sourceTree = "<group>"; };
+		A7E6E1431CBC286000422E91 /* _VideoLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _VideoLink.m; path = DataModel/_VideoLink.m; sourceTree = "<group>"; };
+		A7E6E1441CBC286000422E91 /* VideoLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoLink.h; path = DataModel/VideoLink.h; sourceTree = "<group>"; };
+		A7E6E1451CBC286000422E91 /* VideoLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoLink.m; path = DataModel/VideoLink.m; sourceTree = "<group>"; };
+		A7E6E1481CBC289600422E91 /* ICOVideoLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOVideoLink.h; sourceTree = "<group>"; };
+		A7E6E1491CBC289600422E91 /* ICOVideoLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOVideoLink.m; sourceTree = "<group>"; };
+		A7E6E14B1CBC3BBE00422E91 /* ICOFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOFavoritesViewController.m; sourceTree = "<group>"; };
+		A7E6E14C1CBC3BBE00422E91 /* ICOFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOFavoriteCell.m; sourceTree = "<group>"; };
+		A7E6E14D1CBC3BBE00422E91 /* ICOFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOFavoriteCell.h; sourceTree = "<group>"; };
+		A7E6E14E1CBC3BBE00422E91 /* ICOFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOFavoritesViewController.xib; sourceTree = "<group>"; };
+		A7E6E14F1CBC3BBE00422E91 /* ICOFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOFavoriteCell.xib; sourceTree = "<group>"; };
+		A7E6E1501CBC3BBE00422E91 /* ICOFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOFavoritesViewController.h; sourceTree = "<group>"; };
+		A7E6E1591CBD61BC00422E91 /* ICOURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOURLRequest.h; sourceTree = "<group>"; };
+		A7E6E15A1CBD61BC00422E91 /* ICOURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOURLRequest.m; sourceTree = "<group>"; };
+		A7E6E15C1CBD73B700422E91 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A7E6E16B1CBD76FE00422E91 /* ICOLinkScrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOLinkScrapper.h; sourceTree = "<group>"; };
+		A7E6E16C1CBD76FE00422E91 /* ICOLinkScrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOLinkScrapper.m; sourceTree = "<group>"; };
+		A7F50EE61CBDDA8800BD6DF5 /* ICOSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSearchViewController.h; sourceTree = "<group>"; };
+		A7F50EE71CBDDA8800BD6DF5 /* ICOSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSearchViewController.m; sourceTree = "<group>"; };
+		A7F50EE81CBDDA8800BD6DF5 /* ICOSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOSearchViewController.xib; sourceTree = "<group>"; };
+		A7F50EEE1CBDDEBC00BD6DF5 /* ICOSearchItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOSearchItemCell.h; sourceTree = "<group>"; };
+		A7F50EEF1CBDDEBC00BD6DF5 /* ICOSearchItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOSearchItemCell.m; sourceTree = "<group>"; };
+		A7F50EF01CBDDEBC00BD6DF5 /* ICOSearchItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICOSearchItemCell.xib; sourceTree = "<group>"; };
+		A7F6508E1CBEEB8C00245BA5 /* ICOFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOFileHelper.h; sourceTree = "<group>"; };
+		A7F6508F1CBEEB8C00245BA5 /* ICOFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOFileHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71144711CB9FEA1007B0BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E6E15D1CBD73B700422E91 /* libxml2.tbd in Frameworks */,
+				A7B690F71CBB789D00938D88 /* libz.tbd in Frameworks */,
+				A7B690F51CBB789700938D88 /* libbz2.tbd in Frameworks */,
+				A7B690F01CBB785500938D88 /* MediaPlayer.framework in Frameworks */,
+				A7B690F11CBB785500938D88 /* MobileCoreServices.framework in Frameworks */,
+				A7B690F21CBB785500938D88 /* OpenGLES.framework in Frameworks */,
+				A7B690F31CBB785500938D88 /* VideoToolbox.framework in Frameworks */,
+				A7B690E81CBB784200938D88 /* AudioToolbox.framework in Frameworks */,
+				A7B690E91CBB784200938D88 /* AVFoundation.framework in Frameworks */,
+				A7B690EA1CBB784200938D88 /* CoreMedia.framework in Frameworks */,
+				A7B690EB1CBB784200938D88 /* CoreVideo.framework in Frameworks */,
+				A71144B71CBB5B05007B0BB7 /* IJKMediaFramework.framework in Frameworks */,
+				A71144AE1CBB3BA1007B0BB7 /* QuartzCore.framework in Frameworks */,
+				A71144AC1CBB3B90007B0BB7 /* CoreData.framework in Frameworks */,
+				A71144AA1CBB3B6F007B0BB7 /* Foundation.framework in Frameworks */,
+				A71144A81CBB3B69007B0BB7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A711446B1CB9FEA1007B0BB7 = {
+			isa = PBXGroup;
+			children = (
+				A7E6E1361CBB8DE800422E91 /* Frameworks */,
+				A71144761CB9FEA1007B0BB7 /* ICOPlayer */,
+				A71144751CB9FEA1007B0BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71144751CB9FEA1007B0BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71144741CB9FEA1007B0BB7 /* ICOPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A71144761CB9FEA1007B0BB7 /* ICOPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6E13B1CBC252F00422E91 /* domain */,
+				A7E6E1581CBD617000422E91 /* utils */,
+				A7E6E13A1CBC247A00422E91 /* datamodel */,
+				A71144B51CBB59A5007B0BB7 /* views */,
+				A71144911CB9FEC2007B0BB7 /* controllers */,
+				A711447A1CB9FEA1007B0BB7 /* AppDelegate.h */,
+				A711447B1CB9FEA1007B0BB7 /* AppDelegate.m */,
+				A711447D1CB9FEA1007B0BB7 /* ViewController.h */,
+				A711447E1CB9FEA1007B0BB7 /* ViewController.m */,
+				A71144801CB9FEA1007B0BB7 /* Main.storyboard */,
+				A71144861CB9FEA1007B0BB7 /* Assets.xcassets */,
+				A71144881CB9FEA1007B0BB7 /* LaunchScreen.storyboard */,
+				A711448B1CB9FEA1007B0BB7 /* Info.plist */,
+				A71144831CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodeld */,
+				A71144771CB9FEA1007B0BB7 /* Supporting Files */,
+			);
+			path = ICOPlayer;
+			sourceTree = "<group>";
+		};
+		A71144771CB9FEA1007B0BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A71144781CB9FEA1007B0BB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A71144911CB9FEC2007B0BB7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A71144951CBA019A007B0BB7 /* ICOBaseViewController.h */,
+				A71144961CBA019A007B0BB7 /* ICOBaseViewController.m */,
+				A7E6E1501CBC3BBE00422E91 /* ICOFavoritesViewController.h */,
+				A7E6E14B1CBC3BBE00422E91 /* ICOFavoritesViewController.m */,
+				A7E6E14E1CBC3BBE00422E91 /* ICOFavoritesViewController.xib */,
+				A711449D1CBB20A6007B0BB7 /* ICOMenuViewController.m */,
+				A711449E1CBB20A6007B0BB7 /* ICOMenuViewController.h */,
+				A711449F1CBB20A6007B0BB7 /* ICOMenuViewController.xib */,
+				A71144921CB9FF74007B0BB7 /* ICOContainerViewController.h */,
+				A71144931CB9FF74007B0BB7 /* ICOContainerViewController.m */,
+				A71144981CBA0E9A007B0BB7 /* ICOPlayerStoryboard.storyboard */,
+				A711449A1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.h */,
+				A711449B1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.m */,
+				A71144A21CBB2235007B0BB7 /* ICOPlayerViewController.h */,
+				A71144A31CBB2235007B0BB7 /* ICOPlayerViewController.m */,
+				A71144A41CBB2235007B0BB7 /* ICOPlayerViewController.xib */,
+				A7F50EE61CBDDA8800BD6DF5 /* ICOSearchViewController.h */,
+				A7F50EE71CBDDA8800BD6DF5 /* ICOSearchViewController.m */,
+				A7F50EE81CBDDA8800BD6DF5 /* ICOSearchViewController.xib */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		A71144B51CBB59A5007B0BB7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6E14C1CBC3BBE00422E91 /* ICOFavoriteCell.m */,
+				A7E6E14D1CBC3BBE00422E91 /* ICOFavoriteCell.h */,
+				A7E6E14F1CBC3BBE00422E91 /* ICOFavoriteCell.xib */,
+				A71144B01CBB5678007B0BB7 /* ICPlayerControl.h */,
+				A71144B11CBB5678007B0BB7 /* ICPlayerControl.m */,
+				A71144B31CBB5999007B0BB7 /* ICOPlayerControl.xib */,
+				A7F50EEE1CBDDEBC00BD6DF5 /* ICOSearchItemCell.h */,
+				A7F50EEF1CBDDEBC00BD6DF5 /* ICOSearchItemCell.m */,
+				A7F50EF01CBDDEBC00BD6DF5 /* ICOSearchItemCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		A7D492441CBFF6A800AD35B4 /* Extern */ = {
+			isa = PBXGroup;
+			children = (
+				A7D492481CBFF6F100AD35B4 /* QTouchposeApplication.h */,
+				A7D492491CBFF6F100AD35B4 /* QTouchposeApplication.m */,
+				A7D492451CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.h */,
+				A7D492461CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.m */,
+			);
+			name = Extern;
+			sourceTree = "<group>";
+		};
+		A7E6E1361CBB8DE800422E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D492441CBFF6A800AD35B4 /* Extern */,
+				A7E6E15C1CBD73B700422E91 /* libxml2.tbd */,
+				A7B690F61CBB789D00938D88 /* libz.tbd */,
+				A7B690F41CBB789700938D88 /* libbz2.tbd */,
+				A7B690EC1CBB785500938D88 /* MediaPlayer.framework */,
+				A7B690ED1CBB785500938D88 /* MobileCoreServices.framework */,
+				A7B690EE1CBB785500938D88 /* OpenGLES.framework */,
+				A7B690EF1CBB785500938D88 /* VideoToolbox.framework */,
+				A7B690E41CBB784200938D88 /* AudioToolbox.framework */,
+				A7B690E51CBB784200938D88 /* AVFoundation.framework */,
+				A7B690E61CBB784200938D88 /* CoreMedia.framework */,
+				A7B690E71CBB784200938D88 /* CoreVideo.framework */,
+				A71144B61CBB5B05007B0BB7 /* IJKMediaFramework.framework */,
+				A71144AD1CBB3BA1007B0BB7 /* QuartzCore.framework */,
+				A71144AB1CBB3B90007B0BB7 /* CoreData.framework */,
+				A71144A91CBB3B6F007B0BB7 /* Foundation.framework */,
+				A71144A71CBB3B69007B0BB7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7E6E13A1CBC247A00422E91 /* datamodel */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6E1421CBC286000422E91 /* _VideoLink.h */,
+				A7E6E1431CBC286000422E91 /* _VideoLink.m */,
+				A7E6E1441CBC286000422E91 /* VideoLink.h */,
+				A7E6E1451CBC286000422E91 /* VideoLink.m */,
+				A7E6E1371CBC247200422E91 /* ICODataModel.xcdatamodeld */,
+				A7E6E13F1CBC264B00422E91 /* ICODBManager.h */,
+				A7E6E1401CBC264B00422E91 /* ICODBManager.m */,
+			);
+			name = datamodel;
+			sourceTree = "<group>";
+		};
+		A7E6E13B1CBC252F00422E91 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6E13C1CBC258900422E91 /* ICOVIdeoManager.h */,
+				A7E6E13D1CBC258900422E91 /* ICOVIdeoManager.m */,
+				A7E6E1481CBC289600422E91 /* ICOVideoLink.h */,
+				A7E6E1491CBC289600422E91 /* ICOVideoLink.m */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		A7E6E1581CBD617000422E91 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7E6E1591CBD61BC00422E91 /* ICOURLRequest.h */,
+				A7E6E15A1CBD61BC00422E91 /* ICOURLRequest.m */,
+				A7E6E16B1CBD76FE00422E91 /* ICOLinkScrapper.h */,
+				A7E6E16C1CBD76FE00422E91 /* ICOLinkScrapper.m */,
+				A7F6508E1CBEEB8C00245BA5 /* ICOFileHelper.h */,
+				A7F6508F1CBEEB8C00245BA5 /* ICOFileHelper.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71144731CB9FEA1007B0BB7 /* ICOPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711448E1CB9FEA1007B0BB7 /* Build configuration list for PBXNativeTarget "ICOPlayer" */;
+			buildPhases = (
+				A71144701CB9FEA1007B0BB7 /* Sources */,
+				A71144711CB9FEA1007B0BB7 /* Frameworks */,
+				A71144721CB9FEA1007B0BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICOPlayer;
+			productName = ICOPlayer;
+			productReference = A71144741CB9FEA1007B0BB7 /* ICOPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A711446C1CB9FEA1007B0BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Othon Cruz";
+				TargetAttributes = {
+					A71144731CB9FEA1007B0BB7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A711446F1CB9FEA1007B0BB7 /* Build configuration list for PBXProject "ICOPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A711446B1CB9FEA1007B0BB7;
+			productRefGroup = A71144751CB9FEA1007B0BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71144731CB9FEA1007B0BB7 /* ICOPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71144721CB9FEA1007B0BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711448A1CB9FEA1007B0BB7 /* LaunchScreen.storyboard in Resources */,
+				A71144A61CBB2235007B0BB7 /* ICOPlayerViewController.xib in Resources */,
+				A71144871CB9FEA1007B0BB7 /* Assets.xcassets in Resources */,
+				A7F50EF21CBDDEBC00BD6DF5 /* ICOSearchItemCell.xib in Resources */,
+				A7E6E1541CBC3BBE00422E91 /* ICOFavoriteCell.xib in Resources */,
+				A7F50EEA1CBDDA8800BD6DF5 /* ICOSearchViewController.xib in Resources */,
+				A71144A11CBB20A6007B0BB7 /* ICOMenuViewController.xib in Resources */,
+				A71144991CBA0E9A007B0BB7 /* ICOPlayerStoryboard.storyboard in Resources */,
+				A7E6E1531CBC3BBE00422E91 /* ICOFavoritesViewController.xib in Resources */,
+				A71144821CB9FEA1007B0BB7 /* Main.storyboard in Resources */,
+				A71144B41CBB5999007B0BB7 /* ICOPlayerControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71144701CB9FEA1007B0BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711449C1CBADF4E007B0BB7 /* ICOInteractiveTransitioning.m in Sources */,
+				A7E6E1391CBC247200422E91 /* ICODataModel.xcdatamodeld in Sources */,
+				A71144A01CBB20A6007B0BB7 /* ICOMenuViewController.m in Sources */,
+				A7E6E1511CBC3BBE00422E91 /* ICOFavoritesViewController.m in Sources */,
+				A7D4924A1CBFF6F100AD35B4 /* QTouchposeApplication.m in Sources */,
+				A7E6E16D1CBD76FE00422E91 /* ICOLinkScrapper.m in Sources */,
+				A711447F1CB9FEA1007B0BB7 /* ViewController.m in Sources */,
+				A7E6E1521CBC3BBE00422E91 /* ICOFavoriteCell.m in Sources */,
+				A711447C1CB9FEA1007B0BB7 /* AppDelegate.m in Sources */,
+				A71144A51CBB2235007B0BB7 /* ICOPlayerViewController.m in Sources */,
+				A71144851CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodeld in Sources */,
+				A7E6E15B1CBD61BC00422E91 /* ICOURLRequest.m in Sources */,
+				A7E6E1471CBC286000422E91 /* VideoLink.m in Sources */,
+				A71144941CB9FF74007B0BB7 /* ICOContainerViewController.m in Sources */,
+				A7E6E14A1CBC289600422E91 /* ICOVideoLink.m in Sources */,
+				A7F50EE91CBDDA8800BD6DF5 /* ICOSearchViewController.m in Sources */,
+				A7F50EF11CBDDEBC00BD6DF5 /* ICOSearchItemCell.m in Sources */,
+				A7E6E1411CBC264B00422E91 /* ICODBManager.m in Sources */,
+				A7E6E1461CBC286000422E91 /* _VideoLink.m in Sources */,
+				A7D492471CBFF6BD00AD35B4 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
+				A71144791CB9FEA1007B0BB7 /* main.m in Sources */,
+				A71144B21CBB5678007B0BB7 /* ICPlayerControl.m in Sources */,
+				A7F650901CBEEB8C00245BA5 /* ICOFileHelper.m in Sources */,
+				A71144971CBA019A007B0BB7 /* ICOBaseViewController.m in Sources */,
+				A7E6E13E1CBC258900422E91 /* ICOVIdeoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A71144801CB9FEA1007B0BB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71144811CB9FEA1007B0BB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A71144881CB9FEA1007B0BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A71144891CB9FEA1007B0BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A711448C1CB9FEA1007B0BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A711448D1CB9FEA1007B0BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A711448F1CB9FEA1007B0BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)../hpple",
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = ICOPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iaco.ICOPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A71144901CB9FEA1007B0BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)../hpple",
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = ICOPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iaco.ICOPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A711446F1CB9FEA1007B0BB7 /* Build configuration list for PBXProject "ICOPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711448C1CB9FEA1007B0BB7 /* Debug */,
+				A711448D1CB9FEA1007B0BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711448E1CB9FEA1007B0BB7 /* Build configuration list for PBXNativeTarget "ICOPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711448F1CB9FEA1007B0BB7 /* Debug */,
+				A71144901CB9FEA1007B0BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A71144831CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A71144841CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodel */,
+			);
+			currentVersion = A71144841CB9FEA1007B0BB7 /* ICOPlayer.xcdatamodel */;
+			path = ICOPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A7E6E1371CBC247200422E91 /* ICODataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7E6E1381CBC247200422E91 /* ICODataModel.xcdatamodel */,
+			);
+			currentVersion = A7E6E1381CBC247200422E91 /* ICODataModel.xcdatamodel */;
+			path = ICODataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A711446C1CB9FEA1007B0BB7 /* Project object */;
+}
