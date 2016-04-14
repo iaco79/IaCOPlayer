@@ -1,11 +1,9 @@
 # IaCOPlayer
-IaCo Player : an iOS IpTv Player App.
- 
-IpTv player demo, based on ffmpeg and the ijkmedia framework. 
+IaCo Player : an iOS IpTv Player App, based on ffmpeg and the ijkmedia framework. 
 
 ### Functionality:
   - Tag, arrange and edit favorites.
-  - Search (scrapping m3u8 links from an URL web page).
+  - Search (web scraping).
   - Interactive animated transitions.
   
 ### Screenshots:
@@ -22,7 +20,13 @@ IpTv player demo, based on ffmpeg and the ijkmedia framework.
 
 ### How to build.
 
-Unzip first the precompiled ffmpeg.zip dependencies, project dependencies will be fixed in following releases.
+* Unzip first the precompiled ffmpeg.zip dependencies, project dependencies will be fixed in following releases.
+* Build target ICOPlayer from xcode.
+* Open source dependencies:
 
-Build target ICOPlayer from xcode.
+  * https://github.com/Bilibili/ijkplayer/tree/master/ijkmedia
+  
+  * http://ffmpeg.org/
+
+
 
