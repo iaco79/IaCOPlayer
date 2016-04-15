@@ -1,6 +1,8 @@
 # IaCOPlayer
 IaCo Player : an iOS IpTv Player App, based on ffmpeg and the ijkmedia framework. 
 
+Project details blog: [A simple IP-TV viewe for iOS](https://iaco79.wordpress.com/2016/04/15/a-simple-ip-tv-viewer-for-ios/)  
+
 ### Functionality:
   - Tag, arrange and edit favorites.
   - Search (web scraping).
